@@ -22,7 +22,7 @@ const page = () => {
 
                 <div className="flex justify-center md:block">
                     <Image
-                        src="/sam.png"
+                        src="/nitish.svg"
                         alt="Picture of Nitish Kumar"
                         width={500}
                         height={500}

@@ -34,13 +34,13 @@ const MobileNav = ({ isMobileOpen, handleToggle }) => {
         {/* Social Links */}
         <ul className='flex gap-5 text-sm'>
           <li>
-            <a href="https://www.linkedin.com/in/sameer-z-kotecha/" className='text-white'>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/nitish-kr-singh1/" className='text-white'>LinkedIn</a>
           </li>
           <li>
-            <a href="https://github.com/samkolache" className='text-white'>Github</a>
+            <a href="https://github.com/" className='text-white'>Github</a>
           </li>
           <li>
-            <a href="https://samk-resume.tiiny.site/" className='text-white'>Resume</a>
+            <a href="" className='text-white'>Resume</a>
           </li>
         </ul>
       </div>
