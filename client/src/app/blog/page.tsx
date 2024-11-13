@@ -8,20 +8,20 @@ const page = () => {
     <div className='py-32 relative'>
         <div className='color-blur absolute top-[-350px] left-[10%] h-[1000px] w-[1000px]'></div>
         
-        <h1 className="text-4xl md:text-6xl pl-8 md:pl-16 font-bold text-white">blog.</h1>
+        <h1 className="text-4xl md:text-6xl pl-8 md:pl-16 font-bold text-white">Blog</h1>
 
         {/* Blog Container */}
         <div className="flex flex-wrap justify-center space-y-8 md:space-y-0 md:space-x-8 py-20 px-4">
             <BlogPreview 
                 link="/blog/ui-in-ai" 
-                title="How to Design UI/UX for AI Services and Products" 
-                cat="UI/UX & AI - 5 min read" 
-                prev="How can we design AI products to be easy to use for all? What components can make these tools more accessible?" 
+                title="Being a Student Club President" 
+                cat="Management - 5 min read" 
+                prev="In today's world, to grow your connections , make your personality unique and for the personal growth ,what one can do is join a student organization of your interest to get the maximum out of you " 
             />
             <BlogPreview 
                 link="/blog/accessible" 
-                title="Essential Tips for Designing Accessible Websites for All" 
-                cat="UI/UX & Web Dev - 5 min read" 
+                title="Essential Tips for Designing Websites for All" 
+                cat="Web Dev - 5 min read" 
                 prev="From screen readers to text-to-speech software, here are some tips to make your website accessible to all" 
             />
         </div>

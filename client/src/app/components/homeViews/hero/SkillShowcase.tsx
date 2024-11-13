@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 
 const SkillShowcase = () => {
-  const skills = ["Website Design & Development", "UI/UX", "CMS", "Accessibility", "SEO"];
+  const skills = ["Website Development", "Management", "UI/UX", "Accessibility", "SEO"];
 
   return (
     <div className="overflow-hidden whitespace-nowrap flex items-center border border-brand border-opacity-15 max-w-full md:max-w-lg rounded-lg py-3 px-4">

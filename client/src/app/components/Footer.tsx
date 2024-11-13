@@ -10,7 +10,7 @@ const Footer = () => {
       <TransitionLink href="/">
         <Image
           src='/logo.svg'
-          alt='Logo for Sam Kotecha portfolio site'
+          alt='Logo for Website'
           width={74}
           height={29}
         />
@@ -18,13 +18,13 @@ const Footer = () => {
       
       <ul className="flex flex-col md:flex-row gap-4 md:gap-5 text-sm items-center">
         <li>
-          <a href="https://www.linkedin.com/in/sameer-z-kotecha/" className="text-white hover:underline">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/nitish-kr-singh1/" className="text-white hover:underline">LinkedIn</a>
         </li>
         <li>
-          <a href="https://github.com/samkolache" className="text-white hover:underline">Github</a>
+          <a href="https://github.com/" className="text-white hover:underline">Github</a>
         </li>
         <li>
-          <a href="https://samk-resume.tiiny.site/" className="text-white hover:underline">Resume</a>
+          <a href="" className="text-white hover:underline">Resume</a>
         </li>
       </ul>
     </footer>

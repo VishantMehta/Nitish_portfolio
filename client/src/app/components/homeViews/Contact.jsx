@@ -8,7 +8,7 @@ const Contact = () => {
 
     const handleCopy = async () => {
         try {
-            await navigator.clipboard.writeText("sameerzkotecha@gmail.com");
+            await navigator.clipboard.writeText("nitishsingh123@gmail.com");
             setIsCopied(true);
         } catch (err) {
             console.error("Failed to copy: ", err);
@@ -34,7 +34,7 @@ const Contact = () => {
                 <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                     <div className="flex items-center gap-2">
                         <EnvelopeIcon className="text-white w-5 h-5" />
-                        <p className="text-white text-base md:text-lg">sameerzkotecha@gmail.com</p>
+                        <p className="text-white text-base md:text-lg">nitishsingh123@gmail.com</p>
                     </div>
 
                     <div

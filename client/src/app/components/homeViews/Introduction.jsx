@@ -10,13 +10,10 @@ const Introduction = () => {
         <div>
           <h3 className="text-2xl md:text-3xl font-medium text-brand mb-4">Introduction</h3>
           <p className="text-white text-base md:text-lg">
-            I'm a recent graduate from the University of Houston—go Coogs! I have a strong passion for all things 
-            front-end development and aspire to build a long-term career in this field. Beyond the technical things, I enjoy working out, 
-            cooking, and reading. I just started reading "The Design of Everyday Things!"
+            I'm Nitish Kumar Singh, a B.Tech CSE student at Lovely Professional University, Punjab.!I completed my primary education in West Bengal and subsequently pursued my secondary and higher secondary education. I'm passionate about computer science, particularly full-stack web development and cybersecurity
           </p>
           <p className="text-white mt-3 mb-4 text-base md:text-lg">
-            Right now, I am diving deep into some research on UI/UX design for AI tools. I want to understand how to create a more transparent and human-centered 
-            experience that makes AI interactions more accessible.
+          I've gained proficiency in Python, CSS, HTML, JavaScript, C++, C#, SQL, and database management. My dream company is Google, and I aspire to pursue a career in software engineering. Beyond technical skills, I enjoy creative pursuits like sketching and unwind by watching various shows.
           </p>
         </div>
 

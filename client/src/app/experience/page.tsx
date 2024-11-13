@@ -20,7 +20,7 @@ const Page = () => {
                 )}
             ></div>
             <div className="space-y-10">
-                <h1 className="text-4xl md:text-6xl font-bold text-white">experience.</h1>
+                <h1 className="text-4xl md:text-6xl font-bold text-white">Experience</h1>
                 {["careerCertified", "spotify", "uh"].map((job) => (
                     <motion.div
                         key={job}
@@ -43,17 +43,17 @@ const Page = () => {
                             job === "spotify" && "text-[#1ED760]",
                             job === "uh" && "text-[#C8102E]"
                         )}>
-                            {job === "careerCertified" ? "Career Certified" : job === "spotify" ? "Spotify" : "The University of Houston"}
+                            {job === "careerCertified" ? "Arduino Uno Expert" : job === "spotify" ? "Zillion" : "Lovely Professional University"}
                         </h2>
                         <h3 className="text-lg md:text-xl text-white font-medium">
-                            {job === "careerCertified" && "UI/UX Intern"}
-                            {job === "spotify" && "Systems Administrator Intern"}
-                            {job === "uh" && "Student Front-end Developer"}
+                            {job === "careerCertified" && "Hardware Project Supporter"}
+                            {job === "spotify" && "Club President"}
+                            {job === "uh" && "Student"}
                         </h3>
                         <h4 className="text-base md:text-lg text-white">
-                            {job === "careerCertified" && "May 2024 - December 2024"}
+                            {job === "careerCertified" && "Aug 2023 - December 2023"}
                             {job === "spotify" && "May 2023 - August 2023"}
-                            {job === "uh" && "June 2022 - May 2024"}
+                            {job === "uh" && "July 2023 - Aug 2027"}
                         </h4>
                     </motion.div>
                 ))}

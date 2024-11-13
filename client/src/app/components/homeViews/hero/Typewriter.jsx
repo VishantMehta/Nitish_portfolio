@@ -11,7 +11,7 @@ const Typewriter = () => {
 
   const adjectives = [
     "Web Developer",
-    "UI/UX Designer",
+    "Scholar",
     "Gymrat"
   ];
 
